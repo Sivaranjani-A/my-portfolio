@@ -399,7 +399,7 @@ header .navbar ul li a:hover {
     }
     header .user img {
         height: 12rem;
-        aspect-ratio: 1/1;
+        width: 12rem;
         object-fit: cover;
         border-radius: 50%;
         margin-bottom: .5rem;
