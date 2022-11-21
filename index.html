@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!--fontawesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--custom css file link-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--header section starts-->
+    <header>
+        <!--profile picture and name-->
+        <div class="user">
+            <img src="image/image1.png" alt="my-picture">
+            <h3 class="name">sivaranjani</h3>
+            <p class="post">fullstack developer</p>
+        </div>
+        <!--navbar with buttons-->
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--header section ends-->
+    <!--home section starts-->
+    <section class="home" id="home">
+
+        <h3>hi there...</h3>
+        <h1>I'M <span>sivaranjani</span></h1>
+        <p><span class="typing-text">fullstack developer</span></p>
+        <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+        <div class="share">
+            <a href="https://github.com/Sivaranjani-A" target="_blank" class="fab fa-github"></a>
+            <a href="mailto:ranjani73197@gmail.com" class="fas fa-envelope"></a>
+            <a href="https://www.instagram.com/sree731997/?next=%2F" target="_blank" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/sivaranjani-a-656a59257/" target="_blank" class="fab fa-linkedin"></a>
+        </div>
+    </section>
+    <!--home section ends-->
+    <!--about seection starts-->
+    <section class="about" id="about">
+        <h1 class="heading"><span>about</span> me </h1>
+        <div class="info">
+
+            <p>Hi, I love to develop web applications. I love to do most of the things using Javascript.
+                I have certified with fullstack developer from GUVI. Moreover, I have a little bit knowledge on python.
+                i love to cooking also.</p>
+            <p>I have graduated with a bachelor's degree in electronics and communication engineering(2014-2018) in
+                asian college of engineering and technology,
+                coimbatore.
+            </p>
+            <a href="image/Sivaranjani resume.pdf" download=""><button class="btn"> download CV <i
+                        class="fas fa-download"></i></button></a>
+        </div>
+    </section>
+    <!--about section ends-->
+    <!--skills section starts-->
+    <section class="skills" id="skills">
+        <h1 class="heading">my <span>skills</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fab fa-html5"></i>
+                <p>HTML</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-css3"></i>
+                <p>CSS</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-js"></i>
+                <p>javascript</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-python"></i>
+                <p>python</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-react"></i>
+                <p>react</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-node-js"></i>
+                <p>node-js</p>
+            </div>
+            <div class="box">
+                <img src="https://img.icons8.com/color/48/000000/mongodb.png" />
+                <p>MongoDB</p>
+            </div>
+            <div class="box">
+                <img src="https://img.icons8.com/color/48/null/visual-studio-code-2019.png" />
+                <p>VS code</p>
+            </div>
+
+        </div>
+
+    </section>
+    <!--skills section ends-->
+    <!--contact section starts-->
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>contact</span> me </h1>
+        <div class="row">
+            <div class="content">
+                <h3 class="title">contact info</h3>
+                <div class="info">
+                    <h3><i class="fas fa-envelope"></i> ranjani731997@gmail.com </h3>
+                    <h3><i class="fas fa-phone"></i> 7708227570 </h3>
+                    <h3><i class="fas fa-map-marker-alt"></i> tamilnadu,india </h3>
+                </div>
+            </div>
+
+            <form action="https://formsubmit.co/7b4bed59edd160362b1fe543b83d02d4" method="POST">
+                <input type="text" name="Name" class="box" placeholder="name">
+                <input type="email" name="Email" class="box" placeholder="mail">
+                <input type="text" name="project" class="box" placeholder="project">
+                <textarea name="Message" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+                <button type="submit" class="btn"> send <i class="fas fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+    <!--contact section ends-->
+    <!--menu bar-->
+    <div id="menu" class="fas fa-bars"></div>
+
+    <!--script file-->
+    <script src="script.js"></script>
+
+    <!--type.js cdn link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script>
+        let type = new Typed('.typing-text', {
+            strings: ['', 'quick learner', 'fullstack developer'],
+            typeSpeed: 120,
+            loop: true
+        });
+    </script>
+</body>
+
+</html>
