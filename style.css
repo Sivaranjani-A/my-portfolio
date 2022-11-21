@@ -398,12 +398,12 @@ header .navbar ul li a:hover {
         width: 100vw;
     }
     header .user img {
-        height: 1.5rem;
+        height: 2rem;
         aspect-ratio: 1/1;
         object-fit: cover;
         border-radius: 50%;
-        margin-bottom: .5rem;
-        border: .4rem solid var(--yellow);
+        margin-bottom: .1rem;
+        border: .2rem solid var(--yellow);
     }
 
     .home {
