@@ -398,12 +398,24 @@ header .navbar ul li a:hover {
         width: 100vw;
     }
     header .user img {
-        height: 15rem;
+        height: 12rem;
         aspect-ratio: 1/1;
         object-fit: cover;
         border-radius: 50%;
-        margin-bottom: .1rem;
-        border: .2rem solid var(--yellow);
+        margin-bottom: .5rem;
+        border: .4rem solid var(--yellow);
+    }
+
+    header .user .name {
+        font-size: 2.5rem;
+    }
+
+    header .user .post {
+        font-size: 1.5rem;
+    }
+
+    header .navbar ul li a {
+        font-size: 1.5rem;
     }
 
     .home {
