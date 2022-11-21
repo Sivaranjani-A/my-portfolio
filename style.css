@@ -397,6 +397,19 @@ header .navbar ul li a:hover {
     header {
         width: 100vw;
     }
+    header .user img {
+        height: 12rem;
+        aspect-ratio: 1/1;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-bottom: .5rem;
+        border: .4rem solid var(--yellow);
+    }
+
+    .home {
+        text-align: center;
+    }
+
 
     .skills .box-container {
         padding: 2rem 5rem;
